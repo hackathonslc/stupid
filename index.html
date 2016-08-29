@@ -3,11 +3,117 @@
   <head>
     <meta charset="utf-8">
     <title>Stupid Hackathon SLC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1 style="text-align: center">Coming Soon</h1>
-    <div style="width: 100%; max-width: 835px; margin: 0 auto;">
-      <img src="http://i.huffpost.com/gen/2714370/images/o-POOP-EMOJI-ICE-CREAM-facebook.jpg" alt="poop" style="width: 100%" />
-    </div>
+    <header class="header">
+      <div class="header__info">
+        <span class="header__info__deets font__antonio">Date TBA</span>
+        <span class="header__info__deets__dot"></span>
+        <span class="header__info__deets font__antonio">Location TBA</span>
+        <span class="header__info__deets__dot"></span>
+        <span class="header__info__deets font__antonio">Register Free</span>
+      </div>
+      <div class="header__hero">
+        <div class="header__hero__logo">
+          <img class="header__hero__logo__img" src="./img/logo.svg" alt="logo">
+        </div>
+        <button class="header__hero__cta font__antonio--bold">Register, it's free!</button>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="about__section about__bring">
+        <img src="./img/about/bring.png" alt="notebook with sketches">
+        <div class="about__info about__info__bring">
+          <h2 class="about__heading about__heading__bring font__antonio--bold">
+            Bring your stupid idea
+          </h2>
+          <p class="about__para about__para__bring font__slabo">
+            Think the city towed my car, chandeliers on the floor. Scared to rock the boat and make a mess.
+          </p>
+        </div>
+      </div>
+      <div class="about__section about__build">
+        <img src="./img/about/build.png" alt="notebook and right angle">
+        <div class="about__info about__info__build">
+          <h2 class="about__heading about__heading__build font__antonio--bold">
+            Build your stupid idea
+          </h2>
+          <p class="about__para about__para__build font__slabo">
+            Think the city towed my car, chandeliers on the floor. Scared to rock the boat and make a mess.
+          </p>
+        </div>
+      </div>
+      <div class="about__section about__win">
+        <img src="./img/about/win.png" alt="tricycle chained up">
+        <div class="about__info about__info__win">
+          <h2 class="about__heading about__heading__win font__antonio--bold">
+            Win some stupid prizes
+          </h2>
+          <p class="about__para about__para__win font__slabo">
+            Think the city towed my car, chandeliers on the floor. Scared to rock the boat and make a mess.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2 class="categories__heading font__antonio--bold">
+        The build categories
+      </h2>
+      <ul class="categories__list">
+        <li class="categories__list__item font__antonio--light">Things you might wear on your wrist</li>
+        <li class="categories__list__item font__antonio--light">Kickstart a gofundme</li>
+        <li class="categories__list__item font__antonio--light">Woot</li>
+        <li class="categories__list__item font__antonio--light">Why is there a camera on it</li>
+        <li class="categories__list__item font__antonio--light">Moar people falling off hover boards</li>
+        <li class="categories__list__item font__antonio--light">Wheels and chills</li>
+        <li class="categories__list__item font__antonio--light">The outside has to be shiny</li>
+        <li class="categories__list__item font__antonio--light">Selfies without the stick part</li>
+        <li class="categories__list__item font__antonio--light">Teenage dream feat. caddy peary</li>
+      </ul>
+    </section>
+
+    <section class="hackathons">
+      <h2 class="hackathons__heading font__antonio--bold">Moar stupid hackathons</h2>
+      <p class="hackathons__para font__slabo">Check out these other stupid hackthons to see how shit went down</p>
+      <div class="hackathons__links">
+        <a href="#" class="hackathons__links__link font__slabo">New York</a>
+        <a href="#" class="hackathons__links__link font__slabo">San Francisco</a>
+        <a href="#" class="hackathons__links__link font__slabo">Toronto</a>
+      </div>
+    </section>
+
+    <section class="hosts">
+      <div class="hosts__host hosts__aj">
+        <img src="./img/hosts/aj.png" alt="host aj">
+        <div class="hosts__host__about">
+          <h2 class="hosts__host__name font__antonio--bold">AJ Webb</h2>
+          <p class="hosts__host__info font__slabo">
+            You're original, cannot be replaced. Uh-huh, I see you. Talk about our future like we had a clue.
+          </p>
+        </div>
+      </div>
+      <div class="hosts__host hosts__patrick">
+        <img src="./img/hosts/patrick.png" alt="host patrick">
+        <div class="hosts__host__about">
+          <h2 class="hosts__host__name font__antonio--bold">Patrick Cox</h2>
+          <p class="hosts__host__info font__slabo">
+            You're original, cannot be replaced. Uh-huh, I see you. Talk about our future like we had a clue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <nav class="footer__nav">
+        <a href="#" class="footer__nav__link font__slabo">Contact Us</a>
+        <a href="#" class="footer__nav__link font__slabo">Twitter</a>
+        <a href="#" class="footer__nav__link footer__nav__link--last font__slabo">Register</a>
+      </nav>
+    </footer>
   </body>
 </html>

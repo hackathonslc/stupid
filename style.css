@@ -1,0 +1,262 @@
+@import "./fonts/fonts.css";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2.6rem;
+  font-weight: 100;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+.header__info {
+  margin: 1rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header__info__deets {
+  display: inline-block;
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header__info__deets__dot {
+  position: relative;
+  top: 1.5rem;
+  display: inline-block;
+  margin: 0 2.5rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  background: #000;
+}
+.header__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url(./img/bg/hero.png);
+  background-position: center;
+  background-size: cover;
+}
+.header__hero__logo {
+  margin-bottom: 6rem;
+  width: 75vw;
+}
+.header__hero__logo__img {
+  width: 100%;
+}
+.header__hero__cta {
+  padding: 3rem 10rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 5rem;
+  background: #ff6600;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8rem 4rem;
+  height: 100vh;
+  background: #eee;
+}
+.about__section {
+  display: flex;
+  position: relative;
+}
+.about__section:before {
+  content: "";
+  position: absolute;
+  top: 15rem;
+  left: 30.3rem;
+  right: 0;
+  height: 0.2rem;
+  background: #ff6600;
+}
+.about__build {
+  text-align: right;
+}
+.about__build:before {
+  top: 9rem;
+  left: 0;
+  right: 30.3rem;
+}
+.about__win {}
+.about__win:before {
+  top: 9rem;
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 3rem;
+}
+.about__info__bring {}
+.about__info__build {
+  order: -1;
+}
+.about__info__win {}
+.about__heading {
+  margin: 0;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+.about__heading__bring {}
+.about__heading__build {}
+.about__heading__win {}
+.about__para {
+  padding-right: 25%;
+  color: #444;
+  font-size: 2.3rem;
+}
+.about__para__bring {}
+.about__para__build {
+  padding-left: 25%;
+  padding-right: 0;
+}
+.about__para__win {}
+
+.categories {
+  height: 100vh;
+}
+.categories__heading {
+  position: relative;
+  margin: 10rem 0;
+  font-size: 5.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.categories__heading:after {
+  content: "";
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  margin-left: -5rem;
+  height: 0.2rem;
+  width: 10rem;
+  background: #ff6600;
+}
+.categories__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  height: 60vh;
+  list-style: none;
+}
+.categories__list__item {
+  position: relative;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000;
+}
+.categories__list__item:nth-child(1) {
+  left: 2rem;
+  padding-left: 15rem;
+  padding-right: 5rem;
+}
+.categories__list__item:nth-child(2) {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.categories__list__item:nth-child(3) {
+  right: 5rem;
+  padding-left: 15rem;
+  padding-right: 35rem;
+}
+.categories__list__item:nth-child(4) {
+  left: 8rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.categories__list__item:nth-child(5) {
+  padding-left: 7rem;
+  padding-right: 12rem;
+}
+.categories__list__item:nth-child(6) {
+  right: 8rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.categories__list__item:nth-child(7) {
+  left: 5rem;
+  padding-left: 8rem;
+  padding-right: 3rem;
+}
+.categories__list__item:nth-child(8) {
+  left: 3rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+.categories__list__item:nth-child(9) {
+  right: 4rem;
+  padding-left: 4rem;
+  padding-right: 7rem;
+}
+
+.hackathons {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-image: url(./img/bg/moar.png);
+  background-position: center;
+  background-size: cover;
+}
+.hackathons__heading {
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hackathons__para {}
+.hackathons__links {}
+.hackathons__links__link {}
+
+.hosts {}
+.hosts__host {}
+.hosts__aj {}
+.hosts__patrick {}
+.hosts__host__about {}
+.hosts__host__name {}
+.hosts__host__info {}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  background: #EEEEEE;
+}
+.footer__nav {}
+.footer__nav__link {
+  color: #000;
+  text-decoration: none;
+}
+.footer__nav__link:after {
+  content: "";
+  background: #000;
+}
+.footer__nav__link--last:after {
+  content: none;
+}
+
+@media screen and (min-width: 768px) {
+}

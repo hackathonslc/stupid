@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'antonio';
+    src: url('antonio-bold-webfont.woff2') format('woff2'),
+         url('antonio-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'antonio';
+    src: url('antonio-light-webfont.woff2') format('woff2'),
+         url('antonio-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'antonio';
+    src: url('antonio-regular-webfont.woff2') format('woff2'),
+         url('antonio-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font__antonio {
+  font-family: "antonio";
+  font-weight: 400;
+}
+
+.font__antonio--bold {
+  font-family: "antonio";
+  font-weight: 700;
+}
+
+.font__antonio--light {
+  font-family: "antonio";
+  font-weight: 100;
+}
+
+.font__open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.font__open-sans--bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.font__slabo {
+  font-family: 'Slabo 27px', serif;
+}
